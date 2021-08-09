@@ -1,0 +1,114 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container{
+    background-color: darkgray;
+}
+
+.banner-column{
+    background-color: dimgray;
+}
+
+
+.navbar-container{
+    top: 0;
+    background-color: black;
+    position: sticky;
+    z-index: 2;
+
+}
+
+.about-container{
+    background-color: darkslateblue;
+}
+ .education-container{
+     background-color: lightblue;
+ }
+ 
+ .redtype-color{
+     color: orangered;
+     font-size: 3rem;
+     font-weight: bolder;
+     text-align: center;
+     
+     
+ }
+
+ .circle{
+     background-color: orchid;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     font-size: 2rem;
+     font-weight: bolder;
+ }
+
+.card{
+    font-size: 2rem;
+    font-weight: ;
+    text-align: center;
+    background-color: salmon;
+    
+}
+/* skills */
+.skill-container{
+    background-color: white;
+}
+.card-body-skill{
+    background-color: yellow;
+    font-weight: bolder;
+}
+/* End skills */
+
+/* project */
+.project-container{
+    background-color: violet;
+
+}
+.diff{
+    color: orangered;
+    font-size: 1rem;
+    font-weight: bolder;
+    
+}
+.diff-para{
+    padding-top: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.whiteboard-para{
+    padding-top: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+/* end project */
+
+/* contact */
+.form-container{
+    background-color: dimgray;
+}
+.contact-quote-1{
+    font-weight: bold;
+}
+.touch{
+    color: greenyellow;
+}
+.inner-form{
+    background-color: slategrey;
+}
+
+.bg-redtype{
+    background-color: crimson;
+}
+.bg-redtype:hover{
+    color: black!important;
+}
+/* end contact */
+/* footer */
+.footer{
+    background-color: indigo;
+}
+/* end footer */
