@@ -9,6 +9,9 @@ body{
 .banner-column{
     background-color: dimgray;
 }
+a{
+     text-decoration: none;
+}
 
 
 .navbar-container{
@@ -22,12 +25,37 @@ body{
 .about-container{
     background-color: darkslateblue;
 }
+.cv{
+    display: inline-block;
+    padding: 10px 30px;
+    color:white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease ;
+    transition-property: background-color,color;
+    
+}
+.cv:hover{
+    color:black;
+    background-color: crimson;
+    font-style: italic;;
+}
  .education-container{
-     background-color: lightblue;
+     background-color: #192636;
+ }
+ .card p{
+     color:black;
+     font-family: 'Times New Roman', Times, serif;
+
+    
  }
  
  .redtype-color{
-     color: orangered;
+     color:orangered;
      font-size: 3rem;
      font-weight: bolder;
      text-align: center;
@@ -36,7 +64,7 @@ body{
  }
 
  .circle{
-     background-color: orchid;
+     background-color: #4A97E1;
      width: 150px;
      height: 150px;
      border-radius: 50%;
@@ -48,41 +76,50 @@ body{
     font-size: 2rem;
     font-weight: ;
     text-align: center;
-    background-color: salmon;
+    background-color:#FFFFFD;
     
 }
 /* skills */
 .skill-container{
-    background-color: white;
+    background-color:#2E564D;
 }
 .card-body-skill{
-    background-color: yellow;
+    background-color:#DCDFD9;
     font-weight: bolder;
+    font-family: sans-serif;
 }
 /* End skills */
 
 /* project */
 .project-container{
-    background-color: violet;
-
+    background-color: #85144B;
+    
 }
 .diff{
-    color: orangered;
-    font-size: 1rem;
+    
+    color: turquoise;
+    font-size: 1.2rem;
     font-weight: bolder;
+    text-decoration: none;
+    border: 2px solid yellow;
+    margin-top: 50px;
+    
     
 }
 .diff-para{
     padding-top: 5px;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.5rem;
+    color: #F7FFF4;
+    
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .whiteboard-para{
     padding-top: 5px;
-    color: black;
-    font-weight: bolder;
-    font-size: 1rem;
+    color: #F7FFF4;
+    
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 /* end project */
 
